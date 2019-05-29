@@ -31,6 +31,8 @@ public class PostsRepositoryTest {
 
     @Test
     public void 게시글저장_불러오기() {
+    	
+    	System.out.println("테스트");
         //given
         postsRepository.save(Posts.builder()
                 .title("테스트 게시글")
